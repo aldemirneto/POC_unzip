@@ -1,4 +1,4 @@
-# File Spa
+# Log Processor and Archiver
 
 ---
 
@@ -87,12 +87,12 @@ ___
 
 * Linux:
 ```
-conda env export --no-builds | grep -v "prefix" > ff.yml
+conda env export --no-builds | grep -v "prefix" > environment.yml
 ```
 
 * Windows:
 ```
-conda env export --no-builds | findstr -v "prefix" > ff.yml
+conda env export --no-builds | findstr -v "prefix" > environment.yml
 ```
 
 ##  Deleting and Creating the environment
